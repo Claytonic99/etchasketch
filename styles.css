@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: dashed green 4px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    border: solid blue 4px;
+    width: 40px;
+    text-align: center;
+}
