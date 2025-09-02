@@ -1,23 +1,20 @@
-.body {
-    border: dotted red 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: auto;
-}
-
 #container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    border: dashed green 4px;
-    width: 200px;
-    justify-content: center;
-    align-items: center;
+    width: 800px;
+    height: 800px;
+    border: solid grey 4px;
+    margin: 0;
+    padding: 0;
+    gap: 0;
 }
 
 .square {
-    border: solid blue 4px;
-    width: 40px;
+    box-sizing: border-box;
+    flex: auto;
+    border: solid grey 1px;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    gap: 0;
 }
