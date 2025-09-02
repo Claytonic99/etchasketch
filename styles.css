@@ -1,3 +1,11 @@
+.body {
+    border: dotted red 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
 #container {
     display: flex;
     flex-direction: row;
